@@ -1,0 +1,451 @@
+<h1>This is not the final one, 01_01102021 i sthe right one</h1>
+  
+  <br>
+  <br>
+  
+  <!-- <
+  
+    Chapter Summary
+  Use the <a> element to define a link
+  Use the href attribute to define the link address
+  Use the target attribute to define where to open the linked document
+  Use the <img> element (inside <a>) to use an image as a link
+  Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+  > -->
+  
+  <h2>Link to an Email Address</h2>
+  
+  <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+  
+  <p><a href="mailto:tofael483@gmail.com">Send email</a></p>
+  <br>
+  <br>
+  <h2>Button as a Links</h2>
+  
+  <p>Click the button to go to the HTML tutorial.</p>
+  
+  <button onclick="document.location='https://www2.hm.com/en_us/index.html'">H&M </button>
+  <br>
+  <br>
+  <h2>Link Titles</h2>
+  <p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+  <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+  <br>
+  <br>
+  <h2>External Paths</h2>
+  
+  <p>This example uses a full URL to link to a web page:</p>
+  <p><a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a></p>
+  
+  <br>
+  <br>
+  <p>I am normal</p>
+  <p style="color:red; font-size:30px;">I am red</p>
+  <p style="color:blue;">I am blue</p>
+  <p style="font-size:50px;">I am big</p>
+  
+  
+  <br>
+  <br>
+  <!-- <
+    Formatting elements were designed to display special types of text:
+  
+  <b> - Bold text
+  <strong> - Important text
+  <i> - Italic text
+  <em> - Emphasized text
+  <mark> - Marked/highlighted text
+  <small> - Smaller text
+  <del> - Deleted text
+  <ins> - Inserted text
+  <sub> - Subscript text
+  <sup> - Superscript text
+  > -->
+  <p>This text is normal.</p>
+  <p><strong>This text is important!</strong></p>
+  <b>This text is bold!</b>
+  <em>This text is emphasized</em>
+  <br>
+  <small>This is some smaller text.</small>
+  <br>
+  <p>Do not forget to buy <mark>milk</mark> today.</p>
+  <br>
+  <p>My favorite color is <del>blue</del> red.</p>
+  <br>
+  <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+  <br>
+  <p>This is <sub>subscripted</sub> text.</p>
+  <br>
+  <p>This is <sup>superscripted</sup> text.</p>
+  <br>
+  <p>Browsers usually indent blockquote elements.</p>
+  
+  <!-- <
+    HTML Quotation and Citation Elements
+  Tag Description
+  <abbr>  Defines an abbreviation or acronym
+  <address> Defines contact information for the author/owner of a document
+  <bdo> Defines the text direction
+  <blockquote>  Defines a section that is quoted from another source
+  <cite>  Defines the title of a work
+  <q> Defines a short inline quotation
+  > -->
+  
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+  </blockquote>
+  <br>
+  <p>Browsers usually insert quotation marks around the q element.</p>
+  
+  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+  <br>
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+  
+  <p>use of abbreviation. Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+  <br>
+  <p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+  
+  <address>
+  Written by Tofael K<br> 
+  Visit us at: www.beguileNY.com<br>
+  www.enthrallNY.com<br>
+  New York, NY 10019<br>
+  USA
+  </address>
+  <br>
+  <p>The HTML cite element defines the title of a work.</p>
+  <p>Browsers usually display cite elements in italic.</p>
+  
+  <img src="assets/images/mtks2.png" width="220" height="277" alt="The Scream">
+  <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+  <br>
+  <p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+  
+  <bdo dir="rtl">This line will be written from right to left</bdo>
+  <br>
+  <h1 style="background-color:DodgerBlue;">Hello World</h1>
+  <p style="background-color:Tomato;">Lorem ipsum...</p>
+  <br>
+  <h1 style="color:Tomato;">Hello World</h1>
+  <p style="color:DodgerBlue;">Lorem ipsum...</p>
+  <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+  <br>
+  <h1 style="border:2px solid Tomato;">Hello World</h1>
+  <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+  <h1 style="border:2px solid Violet;">Hello World</h1>
+  <br>
+  <!-- <
+    In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
+  
+  The following three <div> elements have their background color set with RGB, HEX, and HSL values:
+    The following two <div> elements have their background color set with RGBA and HSLA values, which adds an Alpha channel to the color (here we have 50% transparency):
+  > -->
+  <p>Same as color name "Tomato":</p>
+  
+  <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+  <h1 style="background-color:#ff6347;">#ff6347</h1>
+  <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+  
+  <p>Same as color name "Tomato", but 50% transparent:</p>
+  <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+  <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+  
+  <p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+  
+  <br>
+  <h1 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h1>
+  <h1 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h1>
+  <h1 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h1>
+  <h1 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h1>
+  <h1 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h1>
+  <h1 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h1>
+  <br>
+  <h1 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h1>
+  <h1 style="background-color:rgb(100, 100, 100);">rgb(100, 100, 100)</h1>
+  <h1 style="background-color:rgb(140, 140, 140);">rgb(140, 140, 140)</h1>
+  <h1 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h1>
+  <h1 style="background-color:rgb(200, 200, 200);">rgb(200, 200, 200)</h1>
+  <h1 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h1>
+  <br>
+  <h1 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h1>
+  <h1 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h1>
+  <h1 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h1>
+  <h1 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h1>
+  <h1 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h1>
+  <h1 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h1>
+  <br>
+  <h1 style="background-color:#ff0000;">#ff0000</h1>
+  <h1 style="background-color:#0000ff;">#0000ff</h1>
+  <h1 style="background-color:#3cb371;">#3cb371</h1>
+  <h1 style="background-color:#ee82ee;">#ee82ee</h1>
+  <h1 style="background-color:#ffa500;">#ffa500</h1>
+  <h1 style="background-color:#6a5acd;">#6a5acd</h1>
+  <br>
+  <h1 style="background-color:#404040;">#404040</h1>
+  <h1 style="background-color:#686868;">#686868</h1>
+  <h1 style="background-color:#a0a0a0;">#a0a0a0</h1>
+  <h1 style="background-color:#bebebe;">#bebebe</h1>
+  <h1 style="background-color:#dcdcdc;">#dcdcdc</h1>
+  <h1 style="background-color:#f8f8f8;">#f8f8f8</h1>
+  <br>
+  <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h1>
+  <h1 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h1>
+  <h1 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h1>
+  <br>
+  <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h1>
+  
+  <p>With HSL colors, less saturation mean less color. 0% is completely gray.</p>
+  <br>
+  <h1 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h1>
+  <h1 style="background-color:hsl(0, 100%, 100%);">hsl(0, 100%, 100%)</h1>
+  
+  <p>With HSL colors, 0% lightness means black, and 100 lightness means white.</p>
+  <br>
+  <h1 style="background-color:hsl(0, 0%, 20%);">hsl(0, 0%, 20%)</h1>
+  <h1 style="background-color:hsl(0, 0%, 30%);">hsl(0, 0%, 30%)</h1>
+  <h1 style="background-color:hsl(0, 0%, 40%);">hsl(0, 0%, 40%)</h1>
+  <h1 style="background-color:hsl(0, 0%, 60%);">hsl(0, 0%, 60%)</h1>
+  <h1 style="background-color:hsl(0, 0%, 70%);">hsl(0, 0%, 70%)</h1>
+  <h1 style="background-color:hsl(0, 0%, 90%);">hsl(0, 0%, 90%)</h1>
+  <br>
+  <h1 style="background-color:hsla(9, 100%, 64%, 0);">hsla(9, 100%, 64%, 0)</h1>
+  <h1 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h1>
+  <h1 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h1>
+  <h1 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h1>
+  <h1 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h1>
+  <h1 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h1>
+  
+  <br>
+  <!-- < finish until HTML CSS from w3 school > -->
+  <br>
+  <!-- <th -table heading> -->
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Person
+        </th>
+        <th>
+          Age
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Tofael
+        </td>
+        <td>
+          25
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Kabir
+        </td>
+        <td>
+          25
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Sharkar
+        </td>
+        <td>
+          25
+        </td>
+      </tr>
+  
+  
+  
+    </tbody>
+  </table>
+  <br>
+  <!-- <form tag> -->
+    <form>
+      <label>Age </label>
+      <input type="number">
+      <br>
+      <br>
+      <label>Name </label>
+      <input type="text">
+      <br>
+      <label>Sex </label>
+      <br>
+      <label>Male </label>
+      <input type="radio" value="Male" name="Gender">
+      <label>Female </label>
+      <input type="radio" value="Female" name="Gender">
+      <input type="reset">
+    </form>
+  <br>
+  <!-- < block/group tag
+    In div tag a new line is automatically created, but in span, to separte need <br>
+    div, article, section tag generally represent a group of code
+    > -->
+  <div>
+    This is sample div no1
+  </div>
+  <div>
+    This is sample div no2
+  </div>
+  <br>
+  <span>span1</span>
+  <span>span2</span>
+  <br>
+  <article>
+    <h2>THIS IS headign of below article </h2>
+    <p>jhgfhjgewjfgjehgfjhgrfjhgfjhgejfgejhgfjhgejfhgewygfjhjhgejhgfjhwegfjhegwjfhgejhfgjhegjfhgejhfgjhwegjfhgewjhgfjhewgfjhegwjfhgeygfy2io3ijgkrebvyweaviweciebv;rerekjs  hvrbfrehfkdehfvbfhuirnfhfbh</p>
+  </article>
+  <br>
+  <main>
+   
+  <section>
+    <article>
+      <h2>THIS IS headign of below article </h2>
+      <p>jhgfhjgewjfgjehgfjhgrfjhgfjhgejfgejhgfjhgejfhgewygfjhjhgejhgfjhwegfjhegwjfhgejhfgjhegjfhgejhfgjhwegjfhgewjhgfjhewgfjhegwjfhgeygfy2io3ijgkrebvyweaviweciebv;rerekjs  hvrbfrehfkdehfvbfhuirnfhfbh</p>
+    </article>
+    <article>
+      <img src="assets/images/mtks1.png" alt="this is regarding angular material" width="500" height="300">
+    </article>
+  </section>
+   
+  </main>
+  
+  <aside>
+    except the main component of the page
+  </aside>
+  <br>
+  <footer>
+    <span>
+      Trademarks
+    </span>
+  </footer>
+  <br>
+  <!-- < canvas not easy, someone ask in class > -->
+  <h1>The canvas element</h1>
+  
+  <canvas id="myCanvas">
+  Your browser does not support the canvas tag.
+  </canvas>
+  
+  <script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.fillStyle = "red";
+  ctx.fillRect(20, 20, 75, 50);
+  
+  //Turn transparency on
+  ctx.globalAlpha = 0.2;
+  ctx.fillStyle = "blue"; 
+  ctx.fillRect(50, 50, 75, 50); 
+  ctx.fillStyle = "green"; 
+  ctx.fillRect(80, 80, 75, 50);
+  </script>
+  
+  <br>
+  <!-- < iframe - inline frame
+    to contain video or other thing.
+    now they use dialogue box
+    > -->
+  <br>
+  <aside>
+    <button (click)="onClick()">Load Data</button>
+    <!-- < see ts file for on click () function> -->
+  </aside>
+  
+  <br>
+  <article class="item-container1">
+    <div id="first_div">
+      This is div1
+    </div>
+    <div id="second_div">
+      This is div2
+    </div>
+  </article>
+  <br>
+  <h1 style="background-color:hsla(9, 100%, 64%, 0.2); text-align: center;">be.guile</h1>
+  <br>
+  <article class="item-container2">
+    <div id="third_div">
+      This is div3
+    </div>
+    <div id="fourth_div">
+      This is div4
+    </div>
+  </article>
+  <br>
+  
+  <article class="item-container3">
+    <div id="fifth_div">
+      This is div5
+    </div>
+    <div id="sixth_div">
+      This is div6
+    </div>
+  </article>
+  <br>
+  <article class="item-container4">
+    <div id="7th_div">
+      This is div7
+    </div>
+    <div id="8th_div">
+      This is div8
+    </div>
+  </article>
+  <br>
+  <article class="item-container5 my divs">
+    <app-user-profile></app-user-profile>
+    <div class="user-info">
+      
+    
+    <div>
+      This is div9
+    </div>
+    <div id="8th_div">
+      This is div10
+    </div>
+    <form>
+      <label>UserName</label>
+      <input type="text">
+    </form>
+    <button type="submit">Submit the form</button>
+  </div>
+    <div class="profile">
+      <div>
+        This is dev11
+      </div>
+      <div>
+        This is dev12
+      </div>
+  
+    </div>
+  </article>
+  
+  <br>
+  <!-- <
+    ARIA aatributes mostly used:
+    tabindex
+    describedBy
+    aria-label
+    aria-live
+  > -->
+  <br>
+  <!-- < what is frontend validation?
+    > -->
+  <br>
+  
+  
+  </body>

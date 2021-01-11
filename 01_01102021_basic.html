@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning HTML and CSS</title>
+  <link rel="stylesheet" href="">
+  <!-- how to use favicon: see below -->
+  <link rel="shortcut icon" href="c.jpg" type="image/x-icon">
+  <style>
+    h1{
+      background-color: green;
+    }
+    /* 1) !important = is called bang important or very important
+       2) but better not to use it because it create probem during debugging
+       3) when there is more than one !important, then it follow previous role
+    */
+    .heading{
+      background-color: red!important;
+    }
+    #heading-id{
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- HEADINGS -->
+    <!-- h1=32 px -->
+    <!-- !important > inline styling > id > class > tag -->
+    <h1 id="heading-id" class="heading" style="background-color:DodgerBlue !important; color:whitesmoke; font-size: 65px; text-align: center;">Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+  </header>
+  <aside>
+    <p>Tip: Use h1 to h6 elements only for headings. Do not use them just to make text bold or big. Use other tags for that.</p>
+  </aside>
+  <main>
+    <section>
+      <!-- without paragarph, they connect each other. -->
+      <p><strong>This text is bold</strong></p>
+      <p><b>Bold</b></p>
+      <p><i>This text is italic</i></p>
+      <p><u>This text is Underscored</u></p>
+      <p><q>This text is inside quotation</q></p>
+      <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+      <p><del>Hello World!</del> Learning HTML</p>
+      <b>Mohammad <u>Tofael</u><i> Kabir</i></b>
+      <p>Hello <sub>World!</sub> Learning <i><u><b><sup>HTML</sup></b></u></i></p>
+      <br>
+      <!-- <hr> Produce a horizontal line -->
+      <hr>
+      <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+      <hr>
+      <h2>VoiceOver is the free screen reader that is integrated into the Mac operating system. To turn on or off VoiceOver press Command + F5.</h2>
+    </section>
+    <section>
+      <article>
+        <h1></h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consectetur sunt, ipsum doloremque impedit amet eum necessitatibus odit cum nesciunt deserunt repellendus, earum dolore commodi ratione illo omnis quisquam suscipit!</p>
+        <a href=""></a>
+      </article>
+    </section>
+    <section>
+      <!-- <unordered list, ordered list> -->
+      <h3>The 'ul' tag defines an unordered (bulleted) list. Use the 'ul' tag together with the 'li' tag to create unordered lists.</h3>
+      <ul>
+        <li>Tanvir</li>
+        <li>Taufique</li>
+        <li>Emran</li>
+        <li>Arif</li>
+        <li>Ferdous</li>
+        <li>Rajib</li>
+        <li>Ikram</li>
+        <li>Foysol</li>
+        <li>Faiyad</li>
+        <li>Shoaib</li>
+      </ul>  
+      <h3>The 'ol' tag defines an ordered list. An ordered list can be numerical or alphabetical.
+        The 'li' tag is used to define each list item.</h3>
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      
+      <ol start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+    </section>
+    <!-- 1) the below one is for advanced level 
+           2) no end tag on li tag, but works-->
+    <section>
+      <ul>
+        <li>1
+          <li>2
+            <li>3
+      </ul>
+    </section>
+    <!-- below paragraph tag also work, but better not to practice in junior level -->
+    <section>
+      <p>first paragaraph
+        <p>second paragraph
+    </section>
+    <section>
+      <!-- no end tag for img and br -->
+      <img src="" alt="">
+      <br>
+    </section>
+    <section>
+      <!-- Inserting Image in 3 ways -->
+      <!-- 1) local image, 2) alt=alternate text 3) width and height is in px -->
+      <img  src="b.jpg" alt="a concert" width="500" height="300">
+      <img src="a.jpg" alt="3 person in dark">
+      <br>
+      <img src="a.jpg" alt="3 person in dark" width="500" height="300">
+      <!-- <br> Produces a single line break. Can be used inside <p>, <h1> etc, or in an empty place-->
+      <br>
+      <!-- <hr> Produce a horizontal line -->
+      <hr>
+      <br>
+      <!-- 2) image from folder -->
+      <img src="images/body/f.jpg" alt="Boys in a concert are dancing">
+      
+      <!-- 3) online image -- right click, open in a new tab -->
+      <img src="https://www.programming-hero.com/assets/img/hero-header/iphone/features-v2.png" alt="programming hero main page">
+    </section>
+    <section>
+      <!-- Absolute URL -->
+      <a href="https://www.google.com/">Google</a>
+      <br>
+      <a href="https://www2.hm.com/en_us/index.html" target="_self">H&M1</a>
+      <br>
+      <a href="https://www.macys.com/?cm_sp=navigation-_-top_nav-_-macys_icon&lid=glbtopnav_macys_icon-us" target="_blank">Macy's</a>
+      <br>
+      <!-- the below 2 should be dig down more -->
+      <!-- absolute url -->
+      <a href="https://en.wikipedia.org/wiki/Main_Page" target="_parent">Wikipedia</a>
+      <br>
+      <a href="https://www.microsoft.com/en-us/?ql=4&spl=2" target="_top">Microsoft</a>
+      <br>
+      <h2>Relative URLs</h2>
+      <p><a href="women.html">HTML Images</a></p>
+      <p><a href="/css/default.asp">CSS Tutorial</a></p>
+    </section>
+    <div>
+
+    </div>
+  </main>
+  <footer>
+    <!-- &copy; create the copyright symbol
+         this is hex code -->
+    <p>copyright &copy; mtks.com</p>
+  </footer>
+  
+</body>
+</html>
