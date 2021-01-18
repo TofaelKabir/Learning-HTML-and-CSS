@@ -9,11 +9,11 @@
   <!-- how to use link:favicon --- see below -->
   <link rel="shortcut icon" href="c.jpg" type="image/x-icon" />
   <style>
-    h1 {
-      background-color: green;
+    h2{
+      background-color: burlywood;
     }
     hr.new1 {
-      border-top: 1px solid red;
+      border-top: 1px dashed blue;
     }
     /* more than one tag is used by coma */
   </style>
@@ -22,7 +22,7 @@
 <body>
   <main>
     <section>
-      <!-- new -->
+      <h2>Common In line tags</h2>
       <!-- without paragarph, they connect each other. -->
       <!-- <strong> - Important text -->
       <p><strong>This text is bold</strong></p>
@@ -45,15 +45,12 @@
       <!-- <del> - Deleted text -->
       <p><del>Hello World!</del> Learning HTML</p>
       <!-- <ins> - Inserted text and <del> is used -->
-      <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
-      <h1 style="background-color: gray">
-        In line 2 and 4 below, text is inserted
-      </h1>
+      <p>My favorite color is <del>blue</del> <ins>red (inserted)</ins>.</p>
       <ul>
         <li>Buy some cookies</li>
-        <li><ins>Do some cleaning</ins></li>
-        <li><del>Relaxation time</del></li>
-        <li><ins>Visit a doctor</ins></li>
+        <li><ins>Do some cleaning (inserted)</ins></li>
+        <li><del>Relaxation time (deleted)</del></li>
+        <li><ins>Visit a doctor (inserted)</ins></li>
       </ul>
       <!-- <small> - Smaller text, font-size = 13.3 px, for h6 = 10.72px, h5=13.28px-->
       <p><small>This is some smaller text.</small></p>
@@ -63,8 +60,6 @@
         <i><u><b><sup>HTML</sup></b></u></i>
       </p>
       <br />
-      <!-- <hr class="new1"> Produce a horizontal line -->
-      <hr class="new1" />
       <p>
         To force<br />
         line breaks<br />
@@ -81,9 +76,9 @@
       <p>
         The image below is a link. Try to click on it and see if it is working
       </p>
-
       <a href="https://www.w3.org/"><img src="b.jpg" alt="HTML tutorial" style="width: 42px; height: 42px" /></a>
     </div>
+    
     <br />
     <hr class="new1" />
     <br />
@@ -96,9 +91,11 @@
       </p>
       <p><a href="mailto:tofael483@gmail.com">Send email</a></p>
     </div>
+
     <br />
     <hr class="new1" />
     <br />
+
     <div>
       <h2>Button as a Link</h2>
       <p>Click the button to go to the HTML tutorial.</p>
@@ -106,6 +103,7 @@
         H&M
       </button>
     </div>
+    
     <br />
     <hr class="new1" />
     <br />
@@ -121,6 +119,7 @@
     <br />
     <hr class="new1" />
     <br />
+    
     <section>
       <h2>Link Titles</h2>
       <p>
@@ -130,9 +129,11 @@
       </p>
       <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
     </section>
+    
     <br />
     <hr class="new1" />
     <br />
+    
     <section>
       <!-- <abbr>  Defines an abbreviation or acronym -->
       <h2>Use of abbreviation, put cursor on HTML or WHO</h2>
@@ -153,6 +154,7 @@
     <br />
     <hr class="new1" />
     <br />
+
     <section>
       <h2>Inline style is used below, nothing new</h2>
       <h3>I am normal</h3>
@@ -189,6 +191,7 @@
     <br />
 
     <section>
+      <h2>Use of blockquote</h2>
       <!-- <blockquote>  Defines a section that is quoted from another source -->
       <p>Browsers usually indent blockquote elements.</p>
       <blockquote cite="http://www.worldwildlife.org/who/index.html">
@@ -200,7 +203,7 @@
       <br />
       <hr class="new1" />
       <br />
-      <!-- <q> Defines a short inline quotation -->
+      <h2>A short inline quotation</h2>
       <p>Browsers usually insert quotation marks around the q element.</p>
       <p>
         WWF's goal is to:
@@ -213,6 +216,7 @@
     <br />
 
     <section>
+      <h2>Use of Address tag</h2>
       <!-- <address> Defines contact information for the author/owner of a document -->
       <p>
         The HTML address element defines contact information (author/owner) of
@@ -233,6 +237,7 @@
     <br />
 
     <section>
+      <h2>Use of cite tag </h2>
       <!-- <cite>  Defines the title of a work -->
       <p>The HTML cite element defines the title of a work.</p>
       <p>Browsers usually display cite elements in italic.</p>
@@ -245,6 +250,7 @@
     <br />
 
     <section>
+      <h2>Use of bi-directional override (bdo) tag </h2>
       <!-- <bdo> Defines the text direction from right to left, used in arabic -->
       <p>
         If your browser supports bi-directional override (bdo), the next line
@@ -256,10 +262,12 @@
       <!-- left to right -->
       <bdo dir="ltr">This line will be written from left to right</bdo>
     </section>
+
     <footer>
       <!-- &copy; create the copyright symbol this is hex code -->
       <p>copyright &copy; mtks.com</p>
     </footer>
+
 </body>
 
 </html>
